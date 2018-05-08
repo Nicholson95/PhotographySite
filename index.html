@@ -1,42 +1,220 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width= device-width, initial-scale=1, maximum-scale=1">
-	
-	
-	<title>Course Website Live</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+	<title>Central FLorida Photography</title>
+
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-	</head>
-	
-	<body>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	  <div class="main-overlay js-main-overlay"></div>
 		<section class="cover-main" id= "home">
 			<header>
 				<nav class="nav-wrapper">
 						 <div class="logo">
 								<a href=#>
-								 <img src="images/white-logo.png" class="logo">
+									<img src="images/Artboard-1.png" class="logo">
 								</a>
 						 </div>
-					 
 						 <ul class="menu">
-								<li><a href="#">Home<a/></li>
-								<li><a href="#">My Work<a/></li>
-								<li><a href="#">About<a/></li>
-								<li><a href="#">Slider<a/></li>
-								<li><a href="#">Footer<a/></li>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#work">My Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#slider">Slider</a></li>
 						 </ul>
 				</nav>
+				<div class="menu-trigger js-menu-trigger"></div>
 			</header>
+
+				<div class="wrapper">
+					<ul id="scene"
+									data-invert-x="false"
+									data-invert-y="false"
+									data-scalar-x="7"
+									data-scalar-y="7"
+									data-friction-x="0.1"
+									data-friction-y="0.1"
+									data-origin-x="0.5"
+									data-origin-y="0.5">
+						<li class="layer name" data-depth="0.90">Kaleigh's Central Florida</li>
+						<li class="layer title" data-depth="0.50">Photography and Design</li>
+						<li class="layer btn btn-main" data-depth="0.30">
+								<a href="http://kaleighdirck.zenfolio.com/clients.html" class="portfolio-btn">Buy Photos</a>
+								<a href="contact.html" class="contact-btn">Contact Me</a>
+						</li>
+					</ul>
+				</div>
 		</section>
-		
-		
-		
-		
+
+		<section class="masonry-grid" id="work">
+			<h2 class="sub-title">My Photography Portfolio</h2>
+
+			<div class="grid">
+				<div class="grid-item">
+					<img src="images/Anthony_SunSpot.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/Midflorida_Building_Line.jpg" alt="">
+				</div>
+				<div class="grid-item tall-img">
+					<img src="images/Edit_Leia.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/MiloPumpkin.jpg" alt="">
+				</div>
+				<div class="grid-item tall-img">
+					<img src="images/PyleSkate.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/Lights_HDR.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/Tree_reflection.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/SnowNicholson.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/MiloBirthday.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/Kaleigh_Dirck_Projects.jpg" alt="">
+				</div>
+				<div class="grid-item tall-img">
+					<img src="images/MiloCute.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/FamilyPhoto2.jpg" alt="">
+				</div>
+				<div class="grid-item tall-img">
+					<img src="images/ProductAdvertisement.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/NicholsonSkate2.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/MiloPatch.jpg" alt="">
+				</div>
+				<div class="grid-item">
+					<img src="images/Nicholson_Snow.jpg" alt="">
+				</div>
+
+			</div>
+		</section>
+
+		<section class="beating-heart" id="about">
+			<div class="wrapper">
+				<h2 class="sub-title">About Me</h2>
+
+				<p>Hi! I am a central Flordia local, I often spend after work, weekends and night shooting photography. I am classically trained with digital and Black and White Film photography, With a Graphics Design Degree I am also able to create beautiful print, vector and other graphic items. My passion in life is finding the joy in helping others, photography allows me to help people capture the special moments in life. From Weddings to specialty night and action shots I have a little bit experience in all areas of imagery. I would love the help you and your loved ones capture all your special moments, please contact me to schedule an appointment.</p>
+
+				<span>I</span>
+				<svg class="heart" viewBox="0 0 32 29.6">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+        </svg>
+				<span>PHOTOGRAPHY</span>
+			</div>
+		</section>
+<!-- SLider Disabled until more clients obtained
+
+		<div class="slider-div" id="slider">
+			<h2 class="sub-title">Slider Showcase</h2>
+
+			<div class="slider">
+
+
+				<div class="slide">
+					<a href="">
+								<div class="link-container">
+								  <img src="images/one.jpg" alt="" class="image" style="width:100%">
+								  <div class="middle">
+								    <div class="text">Client 1</div>
+								  </div>
+								</div>
+					</a>
+				</div>
+
+
+				<div class="slide">
+					<a href="">
+								<div class="link-container">
+								  <img src="images/eight.jpg" alt="" class="image" style="width:100%">
+								  <div class="middle">
+								    <div class="text">Client 2</div>
+								  </div>
+								</div>
+					</a>
+				</div>
+
+
+				<div class="slide">
+					<a href="">
+								<div class="link-container">
+								  <img src="images/six.jpg" alt="" class="image" style="width:100%">
+								  <div class="middle">
+								    <div class="text">Client 3</div>
+								  </div>
+								</div>
+					</a>
+				</div>
+
+
+				<div class="slide">
+					<a href="">
+								<div class="link-container">
+								  <img src="images/nine.jpg" alt="" class="image" style="width:100%">
+								  <div class="middle">
+								    <div class="text">Client 4</div>
+								  </div>
+								</div>
+					</a>
+				</div>
+
+				<div class="slide">
+					<a href="">
+								<div class="link-container">
+								  <img src="images/seven.jpg" alt="" class="image" style="width:100%">
+								  <div class="middle">
+								    <div class="text">Client 5</div>
+								  </div>
+								</div>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	       //// End Slider -->
+
+		<footer id="footer">
+			<h1>Copyright 2018 </h1>
+		</footer>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!--This is the Header mouse movement eg parallax-->
+		<script src="script/parallax.min.js"></script>
+		<!-- photo grid layout-->
+		<script src="script/masonry.js"></script>
+		<script src="script/slick.min.js"></script>
 		<script src="script/main.js"></script>
+
+		<script>
+
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
+
+
+		</script>
+
+
 	</body>
 	</html>
